@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Video Player</title>
+</head>
+<body>
+    <div class="player-container" id="player-container">
+          <video src="./Videos/gautami patil kadak hot dance 💥__ jwanicha masala song👌 __ dance queen  public demand queen.mp4" id="video"></video>  <!--controls gives default bowser for video -->
+
+         <div class="show-controls">
+            <div class="controls">
+                <div class="progress-range">
+                    <div class="progress-bar"></div>
+                </div>
+
+                <div class="controls-group">
+                    <div class="controls-left">
+                        <div class="play-controls">
+                            <i class="fa-solid fa-play" id="play"></i>
+                        </div>
+                        <div class="volume">
+                            <div class="volume-controls">
+                                <i class="fa-solid fa-volume-up" id="volume"></i>
+                            </div>
+                            <div class="volume-range" id="volume-range">
+                                <div class="volume-bar" id="volume-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="controls-right">
+
+                        <div class="speed" id="myspeed">
+                            <select name="" id="speed">
+                                <option value="0.5">0.5x</option>
+                                <option value="0.75">0.75x</option>
+                                <option value="1.0">Normal</option>
+                                <option value="1.5">1.5x</option>
+                                <option value="2.0">2.0x</option>
+    
+                            </select>
+                        </div>
+                        <div class="time" id="time">
+                            <div class="current-time">0.00/</div>
+                            <div class="duration">1.40</div>
+                        </div>
+                        <div class="full-screen" >
+                            <i class="fa-solid fa-expand" id="fullscreen"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+    
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
